@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: "2022-10-07T12:45:09Z"
+  labels:
+    app: redis
+  name: redis
+  namespace: instavote
+  resourceVersion: "562618"
+  uid: a8a396ba-1168-4d5c-8526-6d50c552c5a3
+spec:
+  clusterIP: 10.96.236.201
+  clusterIPs:
+  - 10.96.236.201
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: "6379"
+    port: 6379
+    protocol: TCP
+    targetPort: 6379
+  selector:
+    app: redis
+  sessionAffinity: None
+  type: ClusterIP
