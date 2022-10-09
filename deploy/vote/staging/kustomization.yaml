@@ -5,6 +5,9 @@ resources:
 patchesStrategicMerge:
 - deployment.yaml
 - service.yaml
+images:
+- name: schoolofdevops/vote
+  newTag: v4
 configMapGenerator:
 - name: vote-options
   envs: 
