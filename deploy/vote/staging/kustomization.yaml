@@ -9,3 +9,8 @@ configMapGenerator:
   - name: vote-options
     envs: 
       - options.env
+commonLabels:
+  project: instavote
+  env: staging
+commonAnnotations:
+  supported-by: "Vinayak"
