@@ -5,8 +5,3 @@ resources:
 patchesStrategicMerge:
 - deployment.yaml
 - service.yaml
-commonLabels:
-  project: instavote
-  env: staging
-commonAnnotations:
-  supported-by: "Vinayak"
