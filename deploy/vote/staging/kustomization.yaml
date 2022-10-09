@@ -5,3 +5,7 @@ resources:
 patchesStrategicMerge:
 - deployment.yaml
 - service.yaml
+configMapGenerator:
+  - name: vote-options
+    envs: 
+      - options.env
