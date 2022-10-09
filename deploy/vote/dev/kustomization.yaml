@@ -4,3 +4,8 @@ resources:
 - ../base
 patchesStrategicMerge:
 - deployment.yaml
+commonLabels:
+  project: instavote
+  env: dev
+commonAnnotations:
+  supported-by: "Vinayak"
