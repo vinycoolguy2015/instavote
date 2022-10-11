@@ -7,7 +7,7 @@ patchesStrategicMerge:
 - service.yaml
 images:
 - name: schoolofdevops/vote
-  newTag: v4
+  newTag: v6
 configMapGenerator:
 - name: vote-options
   envs: 
