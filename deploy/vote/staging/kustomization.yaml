@@ -6,7 +6,7 @@ patchesStrategicMerge:
 - deployment.yaml
 - service.yaml
 images:
-- name: schoolofdevops/vote
+- name: vinycoolguy/vote
   newTag: main-7329afef-1665731626 # {"$imagepolicy": "flux-system:vote:tag"}
 configMapGenerator:
 - name: vote-options
