@@ -4,7 +4,7 @@
 
 replicaCount: 1
 image:
-  repository: vinycoolguy/vote-result
+  repository: vinycoolguy/result
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "main-7329afef-1665631436" # {"$imagepolicy": "flux-system:result:tag"}
