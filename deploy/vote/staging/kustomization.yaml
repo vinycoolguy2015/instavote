@@ -8,7 +8,7 @@ patchesStrategicMerge:
 images:
 - name: schoolofdevops/vote
   newName: vinycoolguy/vote
-  newTag: main-ab1fcaff-1665733398 # {"$imagepolicy": "flux-system:vote:tag"}
+  newTag: main-3ee639b7-1665733984 # {"$imagepolicy": "flux-system:vote:tag"}
 configMapGenerator:
 - name: vote-options
   envs:
