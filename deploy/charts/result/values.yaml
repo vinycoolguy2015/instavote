@@ -7,7 +7,7 @@ image:
   repository: vinycoolguy/result
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "main-7329afef-1665631436" # {"$imagepolicy": "flux-system:result:tag"}
+  tag: "main-3a2b3f16-1665736122" # {"$imagepolicy": "flux-system:result:tag"}
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
