@@ -7,7 +7,7 @@ patchesStrategicMerge:
 - service.yaml
 images:
 - name: schoolofdevops/vote
-  newTag: v7
+  newTag: v7 # {"$imagepolicy": "flux-system:vote:tag"}
 configMapGenerator:
 - name: vote-options
   envs: 
